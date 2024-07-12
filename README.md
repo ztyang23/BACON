@@ -4,7 +4,7 @@
 
 ## Release
 
-- [2024/7/10] 🔥 The code of BACON is released!
+- [2024/7/13] 🔥 The code of BACON is released!
 
 ## Contents
 
@@ -129,7 +129,7 @@ sh inference.sh
 
 We provide the code of evalution for multiple downstream tasks including Open-vocabulary detection, Open-vocabulary scene graph generation, PointQA, PointingQA, VQA, Plan.
 
-Complete evaluation requires running a large amount of baseline code; therefore, we only provide the code for calculating metrics. For the inference part of the baselines, please refer to the official code of each respective baseline. For convenience, we have provided the result files of all baselines we ran [here](https://drive.google.com/file/d/1bXoya2Ca-zcUJVdYuu6JGOJjxlg_6UBl/view?usp=drive_link), please download them and place them in the `results` folder. If you need to run the inference yourself, please format the output according to these files. To calculate metrics, modify `cfg.task` in `eval.py` to the desired task and then run `eval.py`.
+Complete evaluation requires running a large amount of baseline code; therefore, we only provide the code for calculating metrics. For the inference part of the baselines, please refer to the official code of each respective baseline. For convenience, we have provided the result files of all baselines we ran [here](https://drive.google.com/file/d/1JFAonvuP3ofqsdgkfOhOjV5d9NhTAg-i/view?usp=drive_link), please download them and place them in the `results` folder. If you need to run the inference yourself, please format the output according to these files. To calculate metrics, modify `cfg.task` in `eval.py` to the desired task and then run `eval.py`.
 
 ```Shell
 python eval.py
