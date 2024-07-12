@@ -1,0 +1,16 @@
+easydict==1.13
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+transformers==4.31.0
+einops==0.7.0
+peft==0.10.0
+sentencepiece==0.1.99
+numpy==1.23.1
+huggingface-hub==0.23.4
+unidecode
+deepspeed
+opencv-python
+git+https://github.com/openai/CLIP.git
+git+https://github.com/IDEA-Research/GroundingDINO.git
+git+https://github.com/facebookresearch/segment-anything.git
