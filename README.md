@@ -14,7 +14,9 @@ BACON provides a structural representation divided into three parts: an overall 
 </table>
 
 Additionally, BACON can be extended to video captioning.
-[![Examples of video captioning]](https://raw.githubusercontent.com/ztyang23/BACON/main/assets/video_caption.mp4)
+
+[![video]](https://github.com/user-attachments/assets/6546fb12-495c-411c-90f6-76219ec1ea34)
+
 
 ## Release
 
