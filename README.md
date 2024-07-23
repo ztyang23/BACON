@@ -5,10 +5,16 @@
 🚀🚀🚀 Official implementation of **BACON: Supercharge Your VLM with Bag-of-Concept Graph to Mitigate Hallucinations**.
 
 BACON provides a structural representation divided into three parts: an overall description, an object list, and relationships. 
-[![Structural caption provided by BACON]](image_videos/image_caption.png)
+<table align="center">
+  <tr>
+  <td>
+    <img src="assets/image_caption.png">
+  </td>
+  </tr>
+</table>
 
 Additionally, BACON can be extended to video captioning.
-[![Examples of video captioning]](image_videos/video_caption.mp4)
+[![video]](https://github.com/ztyang23/BACON/blob/main/assets/video_caption.mp4)
 
 ## Release
 
