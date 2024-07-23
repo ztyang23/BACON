@@ -2,6 +2,14 @@
 
 [📢 [[Project Page](https://ztyang23.github.io/bacon-page/)] [[Model](https://huggingface.co/ztyang196/bacon-captioner/)] [[Paper](https://arxiv.org/abs/2407.03314)]]
 
+🚀🚀🚀 Official implementation of **BACON: Supercharge Your VLM with Bag-of-Concept Graph to Mitigate Hallucinations**.
+
+BACON provides a structural representation divided into three parts: an overall description, an object list, and relationships. 
+[![Structural caption provided by BACON]](image_videos/image_caption.png)
+
+Additionally, BACON can be extended to video captioning.
+[![Examples of video captioning]](image_videos/video_caption.mp4)
+
 ## Release
 
 - [2024/7/13] 🔥 The code of BACON is released!
@@ -56,7 +64,7 @@ Finally, download the checkpoint for CLIP used for evaluation; both [CLIP-B-32](
 
 ## Dataset
 
-For the training set, we used images from [Unsplash](https://unsplash.com/) and [MSCOCO](https://cocodataset.org/#home). For convenience, we have renumbered these images, and you can download them here. For the test set, we used the COCO2017 test set, so we do not provide these images; please download them from the [official COCO website](https://cocodataset.org/#home). Additionally, in our evaluation, we used the [COCO2014 validation set](https://cocodataset.org/#home), [COCO2015 test set](https://cocodataset.org/#home), and [NLVR2](https://lil.nlp.cornell.edu/nlvr/), [Visual Genome](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html). Please download all these datasets and create a folder named `data` under the `BACON` folder, placing all the datasets in the`data`folder. Additionally, we provide all [annotations](https://drive.google.com/file/d/1sSBTxkRsyL_bk0XfrXOIdGpTY2XzA_bK/view?usp=drive_link); please download them and place them in the `data` folder. The directory structure should be as follows.
+For the training set, we used images from [Unsplash](https://unsplash.com/) and [MSCOCO](https://cocodataset.org/#home). For convenience, we have renumbered these images, and you can download them [here](https://huggingface.co/datasets/ztyang196/BACON_dataset). For the test set, we used the COCO2017 test set, so we do not provide these images; please download them from the [official COCO website](https://cocodataset.org/#home). Additionally, in our evaluation, we used the [COCO2014 validation set](https://cocodataset.org/#home), [COCO2015 test set](https://cocodataset.org/#home), and [NLVR2](https://lil.nlp.cornell.edu/nlvr/), [Visual Genome](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html). Please download all these datasets and create a folder named `data` under the `BACON` folder, placing all the datasets in the`data`folder. Additionally, we provide all [annotations](https://drive.google.com/file/d/1sSBTxkRsyL_bk0XfrXOIdGpTY2XzA_bK/view?usp=drive_link); please download them and place them in the `data` folder. The directory structure should be as follows.
 
 ```
 ├── data
